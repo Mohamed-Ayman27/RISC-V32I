@@ -10,7 +10,9 @@ Instruction Memory
 Data Memory
 Sign Extension
 Register File 32 x 32
-**## Overview
+
+<h2><b>Overview</b></h2>
+
 The RISC-V32I processor is a simple, single-cycle processor that is capable of executing a subset of the RISC-V instruction set. The processor consists of several modules, each of which performs a specific function.
 
 The main decoder controls all signals in the processor, including the ALU decoder. The ALU decoder decodes instructions for the ALU, which performs arithmetic and logical operations on the data.
