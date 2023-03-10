@@ -27,7 +27,7 @@ The RISC-V32I processor has been tested with two programs: one that calculates t
 The factorial program uses a loop to compute the factorial of 8 (i.e., 8! = 40320). The Fibonacci program generates the first 10 numbers in the Fibonacci series (i.e., 0, 1, 1, 2, 3, 5, 8, 13, 21, 34).
 
 <h2><b>Getting Started</b></h2>
-To run the RISC-V32I processor, you will need to have a Verilog simulator installed, such as Icarus Verilog or ModelSim. Once you have a simulator installed, you can run the processor by compiling the Top_Module.v testbench file and running the resulting executable.
+To run the RISC-V32I processor, you will need to have a Verilog simulator installed, such as Icarus Verilog or ModelSim. Once you have a simulator installed, you can run the processor by compiling the Top_Module.v testbench file and running the resulting executable. If you want to run a different program in the instruction memory module change the $readmemh to the program you wrote make sure they are in the same directory.
 
 <h2><b>Contributing</b></h2>
 If you would like to contribute to this project, please feel free to submit a pull request or open an issue. Any contributions or feedback are greatly appreciated!
